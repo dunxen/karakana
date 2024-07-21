@@ -17,12 +17,12 @@ on:
 # Configure constants for this workflow.
 env:
   # The base filename of the binary produced by `cargo build`.
-  BINARY: karakana
+  BINARY: marukana
   # The name to use for the packaged application produced by this workflow.
-  PACKAGE_NAME: karakana
+  PACKAGE_NAME: marukana
   # The itch.io page to upload to, in the format: `user-name/project-name`.
   # Comment this out to disable.
-  ITCH_TARGET: dunxen/karakana
+  ITCH_TARGET: dunxen/marukana
   # The organization or author that owns the rights to the game.
   OWNER: dunxen
   # The path to the assets directory.
